@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mechCardBody{
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    background-color: #141518;
+   
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 15px;
+    
+}
+
+.mechCardTitle{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.mechCardTitle h1{
+    font-size: clamp(0.5rem, 1vw + 1rem, 3rem);
+    color:var(--gold3);
+}
+
+.mechCardBanner{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    border-width: 0px;
+    border-top: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    overflow: hidden;
+    object-fit: fill;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mechCardBanner img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}

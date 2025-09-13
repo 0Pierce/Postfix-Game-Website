@@ -1,0 +1,82 @@
+.devCardBody {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: var(--darkText);
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.devCardTop {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  background-color: #141518;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.devCardTop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; /* optional: centers the crop */
+}
+
+.devCardBottom {
+  width: 100%;
+  height: 40%;
+  background-color: #141518;
+  display: flex;
+  justify-content: center;
+
+}
+
+.devCardBottomContainer{
+  width: 98%;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.devCardID {
+  position: relative;
+  margin-top: 1%;
+  height: 15%;
+  display: flex;
+  align-items: end;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.devCardID h2 {
+  color: var(--gold3);
+}
+
+.devCardID h3 {
+  margin-left: 10px;
+  margin: 5px;
+}
+
+.devCardNickname {
+  font-size: 0.7rem;
+}
+
+.devCardSpacer {
+  width: 100%;
+  height: 1px;
+  background-color: var(--gold3);
+  background-image: url("/diagonal.svg");
+}
+
+.devCardPosition h5 {
+  color: var(--gold3);
+}
+
+.devCardContent {
+  width: 100%;
+
+  background-color: rgba(2, 255, 171, 0);
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}

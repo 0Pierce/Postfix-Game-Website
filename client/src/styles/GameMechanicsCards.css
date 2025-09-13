@@ -1,0 +1,29 @@
+.mechCardsBody {
+  position: relative;
+  display: grid;
+
+  height: 100%;
+  width: 85%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+
+  background-color: rgba(4, 199, 4, 0);
+  overflow: hidden;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .mechCardsBody{
+        background-color: rgba(255, 0, 0, 0);
+        grid-template-columns: 1fr;
+
+    }
+  
+}

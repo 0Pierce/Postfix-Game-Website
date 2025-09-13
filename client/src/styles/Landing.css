@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+}
+
+/*======== section wide ========*/
+.landingBold {
+  font-weight: bolder;
+  color: var(--gold3);
+}
+/* ================================= */
+.landingBody {
+  position: relative;
+  background-color: rgba(51, 255, 0, 0);
+  width: 100%;
+  min-block-size: 95vh;
+  min-block-size: 95dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+.landingBanner {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  max-height: 70vh;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingBanner video {
+  flex-grow: 1;
+  object-fit: cover;
+  
+  
+}
+
+.landingFade {
+  position: absolute;
+  top: 20vh;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(to top, #232120, transparent);
+  /* 221d1a */
+}
+
+.landingInfo {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0059ff00;
+
+ 
+  
+}
+
+.landingInfo::before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #232120, transparent);
+
+}
+
+
+
+.landingContentBorder {
+  position: relative;
+  background-color: var(--gold3);
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-image: url("/diagonal.svg");
+
+}
+
+.landingInfoContent {
+  position: relative;
+  width: 100%;
+  background-color: #141518;
+
+  color:var(--darkText);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  
+
+}
+
+.landingInfo p {
+  width: 50%;
+  font-size: 2rem;
+  margin: 1%;
+}

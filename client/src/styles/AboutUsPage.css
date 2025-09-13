@@ -1,0 +1,26 @@
+.aboutUsPage {
+  position: relative;
+  width: 100%;
+  min-height: 95vh;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.aboutUsGrid {
+  position: relative;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgba(87, 190, 104, 0);
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 1%;
+  grid-template-columns: repeat(3, 1fr);
+
+  
+}

@@ -1,0 +1,7 @@
+.spacerBody{
+    width: 100%;
+    height: 2px;
+    background-color: var(--gold3);
+    background-image: url("/diagonal.svg");
+    
+}

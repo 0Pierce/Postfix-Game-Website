@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+}
+
+.homepageBody{
+    width: 100%;
+    
+    background-color: rgba(220, 20, 60, 0.438);
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
